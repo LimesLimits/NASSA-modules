@@ -14,7 +14,7 @@ contributors:
    orcid: 0000-0001-8166-122X
 lastUpdateDate: 2025-05-05
 description: >
-  This is a submodule providing the code necessary to simulate livestock herd demography, including the effects of slaughter practices. The module was originally part of the ROMFARMS model that was set up to simulate animal husbandry economy on the Dutch Roman frontier, focusing on stockbreeding of cattle, sheep and horses. However, the code can be adapted to different animals, regions and periods.
+  This submodel simulates livestock herd demography and slaughter effects. Initially part of the ROMFARMS model for animal husbandry on the Dutch Roman frontier, it focused on cattle, sheep, and horses. However, the code is adaptable for various animals, regions, and historical periods.
 relatedModules: 
 references: [ Joyce-2019a, Joyce-2019b, Weijgertse-2020, Verhagen-2021 ]
 moduleReferences: [ Joyce-2019a, Weijgertse-2020, Joyce-2021 ]
@@ -116,6 +116,7 @@ outputs:
     type: floating point
     description: herd population growth as the percentage increase or decrease from the previous year
 license: MIT
+
 
 
 
