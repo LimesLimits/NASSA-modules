@@ -88,7 +88,7 @@ inputs:
   - name: age
     type: attribute, integer
     description: age of animal
-  - name: fertility
+  - name: fertility
     type: attribute, floating point
     description: fertility of animal
   - name: lactating
@@ -115,4 +115,5 @@ outputs:
     type: floating point
     description: herd population growth as the percentage increase or decrease from the previous year
 license: MIT
+
 
