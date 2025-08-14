@@ -82,20 +82,20 @@ inputs:
   - name: animals
     type: turtle-set
     description: animals found in livestock herd
-  - name: sex
-    type: attribute, string
+  - name: sex (agent attribute)
+    type: string
     description: sex of animal (F/M)
-  - name: age
-    type: attribute, integer
+  - name: age (agent attribute)
+    type: integer
     description: age of animal
-  - name: fertility
-    type: attribute, floating point
+  - name: fertility (agent attribute)
+    type: floating point
     description: fertility of animal
-  - name: lactating
-    type: attribute, string
+  - name: lactating (agent attribute)
+    type: string
     description: lactation state of animal (Y/N)
-  - name: survivorship
-    type: attribute, floating point
+  - name: survivorship (agent attribute)
+    type: floating point
     default: 1.0
     description: survivorship of animal
 outputs:
@@ -115,7 +115,3 @@ outputs:
     type: floating point
     description: herd population growth as the percentage increase or decrease from the previous year
 license: MIT
-
-
-
-
