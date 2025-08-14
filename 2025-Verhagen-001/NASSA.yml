@@ -28,16 +28,11 @@ domainKeywords:
     - animal husbandry
     - livestock demography
 modellingKeywords:
-  initialization:
-    - agent initialisation
-    - parameter initialization
-  runtime:
-    agent:
-      - agent variables
-      - agent behaviour (self)
-  experiment:
-    output:
-      - output visualisation
+  - agent initialisation
+  - parameter initialisation
+  - agent variables
+  - agent behaviour (self)
+  - output visualisation
 programmingKeywords:
   - Functional
   - Object-Oriented
@@ -116,6 +111,7 @@ outputs:
     type: floating point
     description: herd population growth as the percentage increase or decrease from the previous year
 license: MIT
+
 
 
 
