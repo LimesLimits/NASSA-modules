@@ -35,7 +35,7 @@ modellingKeywords:
       - agent variables
       - agent behaviour (self)
   experiment:
-    experiment:
+    output:
       - output visualisation
 programmingKeywords:
   - Functional
@@ -80,7 +80,7 @@ inputs:
     type: floating point
     description: mortality rate of adult animal for slaughter
   - name: animals
-    type:  turtle-set
+    type: turtle-set
     description: animals found in livestock herd
   - name: sex
     type: attribute, string
@@ -90,7 +90,7 @@ inputs:
     description: age of animal
   - name: fertility
     type: attribute, floating point
-    description: fertility of animal
+    description: fertility of animal
   - name: lactating
     type: attribute, string
     description: lactation state of animal (Y/N)
