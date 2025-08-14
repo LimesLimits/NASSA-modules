@@ -9,7 +9,7 @@ contributors:
    email: jamie.alexander.joyce@gmail.com
    orcid: 0000-0002-1825-0097
  - name: Verhagen, Philip
-   roles: [ "Creator", "Contributor", "Copyright Holder", "Thesis advisor" ]
+   roles: [ "Creator", "Contributor", "Copyright Holder", "Thesis Advisor" ]
    email: j.w.h.p.verhagen@vu.nl
    orcid: 0000-0001-8166-122X
 lastUpdateDate: 2025-05-05
@@ -116,6 +116,7 @@ outputs:
     type: floating point
     description: herd population growth as the percentage increase or decrease from the previous year
 license: MIT
+
 
 
 
