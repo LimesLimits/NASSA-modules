@@ -93,7 +93,7 @@ inputs:
     description: fertility of animal
   - name: lactating (agent attribute)
     type: string
-    description: lactation state of animal (Y/N)
+    description: lactation state of animal (Y/N)
   - name: survivorship (agent attribute)
     type: floating point
     default: 1.0
@@ -115,4 +115,5 @@ outputs:
     type: floating point
     description: herd population growth as the percentage increase or decrease from the previous year
 license: MIT
+
 
