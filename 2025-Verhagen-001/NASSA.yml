@@ -1,6 +1,6 @@
 id: 2025-Verhagen-001
 nassaVersion: 1.0.0
-moduleType: Submodule
+moduleType: Submodel
 title: Livestock demography
 moduleVersion: 1.1.0
 contributors:
@@ -115,6 +115,7 @@ outputs:
     type: floating point
     description: herd population growth as the percentage increase or decrease from the previous year
 license: MIT
+
 
 
 
