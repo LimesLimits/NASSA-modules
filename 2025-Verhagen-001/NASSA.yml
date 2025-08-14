@@ -40,7 +40,6 @@ implementations:
   - language: NetLogo
     softwareDependencies: 
     - NetLogo 6.4.0
-docsDir: documentation/
 inputs:
   - name: species-type
     type: string
@@ -111,6 +110,7 @@ outputs:
     type: floating point
     description: herd population growth as the percentage increase or decrease from the previous year
 license: MIT
+
 
 
 
